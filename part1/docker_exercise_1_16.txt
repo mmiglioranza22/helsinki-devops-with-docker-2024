@@ -1,0 +1,31 @@
+To deploy the docker image in render, Dockerfile needs to be modified including `--platform=linux/amd64` flag
+in FROM. (Render only supports images with linux platform apparently).
+
+So build the new image with a specific tag for Render (deploy):
+ 
+ docker build -t mmiglioranza22/country-hook-example:deploy .    
+
+Push tag 
+ 
+ docker image push --all-tags mmiglioranza22/country-hook-example
+
+Create a new webservice from "Existing image" option in Render Dashboard.
+
+Type the platform-specific image and connect.
+
+
+Link -> https://country-hook-example-deploy.onrender.com/
+
+===== Dockerfile for this specific deploy image =====
+
+FROM --platform=linux/amd64 node:20
+
+WORKDIR /usr/src/app/
+
+COPY . .
+
+RUN npm install
+
+EXPOSE 5173
+
+CMD [ "npm", "run", "dev", "--", "--host" ]

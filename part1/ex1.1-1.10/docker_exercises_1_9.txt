@@ -1,0 +1,35 @@
+Script started on Tue Aug 27 11:50:49 2024
+[1m[7m%[27m[1m[0m                                                                                                                                       ]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops]1;..-moocs/devops]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops\[0m[27m[24m[J[01;32m➜  [36mdevops[00m [K[?1h=[?2004hccd  mmkdir text.log[?1l>[?2004l
+]2;mkdir text.log]1;mkdir[1m[7m%[27m[1m[0m                                                                                                                                       ]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops]1;..-moocs/devops]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops\[0m[27m[24m[J[01;32m➜  [36mdevops[00m [K[?1h=[?2004hccd 
+[J[1;36mdocker[0m/    [J[1;36mtext.log[0m/[J[A[0m[27m[24m[10Ccd[K[1Cdocker[1m/[0m
+[J[7mdocker/  [0m  [J[1;36mtext.log[0m/[J[A[0m[27m[24m[10Ccd docker[1m/[0m[K
+[7mdocker/  [0m  [7mdocker/  [0m  [A[0m[27m[24m[10Ccd docker[1m/[0m[Ktext.l[0mog[1m/[0m
+[11C[7mtext.log/[0m[1;36mdocker[0m/    [A[0m[27m[24m[10Ccd text.log[1m/[0m[K
+[J[A[22C[0m [?1l>[?2004l
+[J]2;cd text.log]1;cd[1m[7m%[27m[1m[0m                                                                                                                                       ]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops/text.log]1;..vops/text.log]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops/text.log\[0m[27m[24m[J[01;32m➜  [36mtext.log[00m [K[?1h=[?2004httouch ex_1.9_logs.txt[?1l>[?2004l
+]2;touch ex_1.9_logs.txt]1;touch[1m[7m%[27m[1m[0m                                                                                                                                       ]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops/text.log]1;..vops/text.log]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops/text.log\[0m[27m[24m[J[01;32m➜  [36mtext.log[00m [K[?1h=[?2004htouch ex_1.9_logs.txt[21Dcd text.log          [10D[11Dmkdir text.log[14Dscript docker_exercises_1_9.txt[31Ddocker script                  [18D[13Drm docker_exercises_1_9.txt[27Drem docker_exercises_1_9.txt[28Drm -rf text.log             [13D[15Dexit           [11Ddocker run -v "$(pwd)/text.log/ex_1.9_logs.txt:/usr/src/app/text.log" devopsdockeruh/simple-web-service[?1l>[?2004l
+]2;docker run -v "$(pwd)/text.log/ex_1.9_logs.txt:/usr/src/app/text.log" ]1;dockerWARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+Starting log output
+<nil>
+open /usr/src/app/text.log: is a directory
+<nil>
+open /usr/src/app/text.log: is a directory
+^C[1m[7m%[27m[1m[0m                                                                                                                                       ]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops/text.log]1;..vops/text.log]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops/text.log\[0m[27m[24m[J[01;31m➜  [36mtext.log[00m [K[?1h=[?2004hdocker run -v "$(pwd)/text.log/ex_1.9_logs.txt:/usr/src/app/text.log" devopsdockeruh/simple-web-service[15D[P[73C [74D[P[73C [74D[P[73C [74D[P[73C [74D[P[73C [74D[P[73C [74D[P[73C [74D[P[73C [74D[P[72C [74D[1C[3C[?1l>[?2004l
+]2;docker run -v "$(pwd)/ex_1.9_logs.txt:/usr/src/app/text.log" ]1;dockerWARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+Starting log output
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+^C[1m[7m%[27m[1m[0m                                                                                                                                       ]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops/text.log]1;..vops/text.log]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops/text.log\[0m[27m[24m[J[01;31m➜  [36mtext.log[00m [K[?1h=[?2004hccat 
+[J[0mex_1.9_logs.txt  [J[1;36mtext.log[0m/      [J[A[0m[27m[24m[12Ccat[K[1Cex_1.9_logs.txt
+[J[7mex_1.9_logs.txt[0m  [J[1;36mtext.log[0m/      [J[A[0m[27m[24m[12Ccat ex_1.9_logs.txt[K
+[7mex_1.9_logs.txt[0m  [7mex_1.9_logs.txt[0m  [A[0m[27m[24m[12Ccat ex_1.9_logs.txt[K
+[J[A[31C[1m [0m[0m [?1l>[?2004l
+[J]2;cat ex_1.9_logs.txt]1;cat2024-08-27 14:51:29 +0000 UTC
+2024-08-27 14:51:31 +0000 UTC
+2024-08-27 14:51:33 +0000 UTC
+2024-08-27 14:51:35 +0000 UTC
+[1m[7m%[27m[1m[0m                                                                                                                                       ]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops/text.log]1;..vops/text.log]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops/text.log\[0m[27m[24m[J[01;32m➜  [36mtext.log[00m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on Tue Aug 27 11:51:46 2024

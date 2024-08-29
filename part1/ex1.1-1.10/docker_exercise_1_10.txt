@@ -1,0 +1,20 @@
+Script started on Tue Aug 27 14:07:00 2024
+[1m[7m%[27m[1m[0m                                                                                                                                       ]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops/docker/part1/ex1_8]1;..r/part1/ex1_8]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops/docker/part1/ex1_8\[0m[27m[24m[J[01;32m➜  [36mex1_8[00m [K[?1h=[?2004hscript docker_exercise_1_10.txt[31Dexit                           [27Dscript docker_exercise_1_10.txt[31Dexit                           [27Ddocker run -p 8080:8080 web-server[?1l>[?2004l
+]2;docker run -p 8080:8080 web-server]1;dockerWARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /*path                    --> server.Start.func1 (3 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2024/08/27 - 17:07:09 | 200 |       3.884ms |    192.168.65.1 | GET      "/"
+[GIN] 2024/08/27 - 17:07:09 | 200 |         142µs |    192.168.65.1 | GET      "/favicon.ico"
+[GIN] 2024/08/27 - 17:07:17 | 200 |         101µs |    192.168.65.1 | GET      "/api"
+[GIN] 2024/08/27 - 17:07:17 | 200 |          60µs |    192.168.65.1 | GET      "/favicon.ico"
+[GIN] 2024/08/27 - 17:07:25 | 200 |         102µs |    192.168.65.1 | GET      "/this works!"
+[GIN] 2024/08/27 - 17:07:25 | 200 |          59µs |    192.168.65.1 | GET      "/favicon.ico"
+^C[1m[7m%[27m[1m[0m                                                                                                                                       ]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops/docker/part1/ex1_8]1;..r/part1/ex1_8]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops/docker/part1/ex1_8\[0m[27m[24m[J[01;31m➜  [36mex1_8[00m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on Tue Aug 27 14:07:30 2024

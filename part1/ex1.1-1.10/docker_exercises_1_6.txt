@@ -1,0 +1,168 @@
+Script started on Mon Aug 26 13:39:42 2024
+[1m[7m%[27m[1m[0m                                                                                                                                      
+ 
+]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops]1;..-moocs/devops]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops\
+[0m[27m[24m[J[01;32m➜  [36mdevops[00m [K[?1h=[?2004h[7mdocker run -it devopsdockeruh/pull_exercise[27m[43D[27md[27mo[27mc[27mk[27me[27mr[27m [27mr[27mu[27mn[27m [27m-[27mi[27mt[27m [27md[27me[27mv[27mo[27mp[27ms[27md[27mo[27mc[27mk[27me[27mr[27mu[27mh[27m/[27mp[27mu[27ml[27ml[27m_[27me[27mx[27me[27mr[27mc[27mi[27ms[27me[?1l>[?2004l
+
+]2;docker run -it devopsdockeruh/pull_exercise]1;dockerUnable to find image 'devopsdockeruh/pull_exercise:latest' locally
+latest: Pulling from devopsdockeruh/pull_exercise
+
+[1A[2K
+8e402f1a9c57: Pulling fs layer 
+[1B
+[1A[2K
+5e2195587d10: Pulling fs layer 
+[1B
+[1A[2K
+6f595b2fc66d: Pulling fs layer 
+[1B
+[1A[2K
+165f32bf4e94: Pulling fs layer 
+[1B
+[1A[2K
+67c4f504c224: Pulling fs layer 
+[1B[2A[2K
+165f32bf4e94: Waiting 
+[2B[1A[2K
+67c4f504c224: Waiting 
+[1B[3A[2K
+6f595b2fc66d: Downloading [>                                                  ]  14.42kB/1.332MB
+[3B[5A[2K
+8e402f1a9c57: Downloading [>                                                  ]  28.11kB/2.755MB
+[5B[4A[2K
+5e2195587d10: Downloading [>                                                  ]  218.7kB/21.6MB
+[4B[3A[2K
+6f595b2fc66d: Downloading [========================>                          ]    652kB/1.332MB
+[3B[5A[2K
+8e402f1a9c57: Downloading [=============>                                     ]    734kB/2.755MB
+[5B[4A[2K
+5e2195587d10: Downloading [=>                                                 ]  668.4kB/21.6MB
+[4B[3A[2K
+6f595b2fc66d: Downloading [=================================================> ]  1.307MB/1.332MB
+[3B[3A[2K
+6f595b2fc66d: Verifying Checksum 
+[3B[3A[2K
+6f595b2fc66d: Download complete 
+[3B[5A[2K
+8e402f1a9c57: Downloading [==========================>                        ]  1.484MB/2.755MB
+[5B[4A[2K
+5e2195587d10: Downloading [===>                                               ]  1.357MB/21.6MB
+[4B[5A[2K
+8e402f1a9c57: Downloading [===================================>               ]  1.983MB/2.755MB
+[5B[4A[2K
+5e2195587d10: Downloading [=====>                                             ]  2.262MB/21.6MB
+[4B[5A[2K
+8e402f1a9c57: Verifying Checksum 
+[5B[5A[2K
+8e402f1a9c57: Download complete 
+[5B[5A[2K
+8e402f1a9c57: Extracting [>                                                  ]  32.77kB/2.755MB
+[5B[4A[2K
+5e2195587d10: Downloading [=======>                                           ]    3.4MB/21.6MB
+[4B[5A[2K
+8e402f1a9c57: Extracting [==================================================>]  2.755MB/2.755MB
+[5B[5A[2K
+8e402f1a9c57: Pull complete 
+[5B[4A[2K
+5e2195587d10: Downloading [===========>                                       ]  5.006MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading [===============>                                   ]  6.599MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading [==================>                                ]  8.197MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading [========================>                          ]  10.71MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading [============================>                      ]  12.28MB/21.6MB
+[4B[2A[2K
+165f32bf4e94: Downloading [==================================================>]     108B/108B
+[2B[2A[2K
+165f32bf4e94: Verifying Checksum 
+[2B[2A[2K
+165f32bf4e94: Download complete 
+[2B[4A[2K
+5e2195587d10: Downloading [===============================>                   ]  13.65MB/21.6MB
+[4B[1A[2K
+67c4f504c224: Downloading [====>                                              ]     759B/9.267kB
+[1B[1A[2K
+67c4f504c224: Downloading [==================================================>]  9.267kB/9.267kB
+[1B[1A[2K
+67c4f504c224: Verifying Checksum 
+[1B[1A[2K
+67c4f504c224: Download complete 
+[1B[4A[2K
+5e2195587d10: Downloading [====================================>              ]  15.92MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading [=======================================>           ]  17.06MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading [===========================================>       ]  18.65MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading [=============================================>     ]  19.55MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading [=================================================> ]  21.36MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Verifying Checksum 
+[4B[4A[2K
+5e2195587d10: Download complete 
+[4B[4A[2K
+5e2195587d10: Extracting [>                                                  ]  229.4kB/21.6MB
+[4B[4A[2K
+5e2195587d10: Extracting [==============>                                    ]  6.423MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Extracting [================================>                  ]  14.22MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Extracting [======================================>            ]  16.52MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Extracting [========================================>          ]  17.66MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Extracting [===========================================>       ]  18.58MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Extracting [============================================>      ]  19.04MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Extracting [=============================================>     ]  19.73MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Extracting [===============================================>   ]  20.64MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Extracting [=================================================> ]  21.33MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Extracting [==================================================>]   21.6MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Pull complete 
+[4B[3A[2K
+6f595b2fc66d: Extracting [=>                                                 ]  32.77kB/1.332MB
+[3B[3A[2K
+6f595b2fc66d: Extracting [==================================================>]  1.332MB/1.332MB
+[3B[3A[2K
+6f595b2fc66d: Extracting [==================================================>]  1.332MB/1.332MB
+[3B[3A[2K
+6f595b2fc66d: Pull complete 
+[3B[2A[2K
+165f32bf4e94: Extracting [==================================================>]     108B/108B
+[2B[2A[2K
+165f32bf4e94: Extracting [==================================================>]     108B/108B
+[2B[2A[2K
+165f32bf4e94: Pull complete 
+[2B[1A[2K
+67c4f504c224: Extracting [==================================================>]  9.267kB/9.267kB
+[1B[1A[2K
+67c4f504c224: Extracting [==================================================>]  9.267kB/9.267kB
+[1B[1A[2K
+67c4f504c224: Pull complete 
+[1BDigest: sha256:7c0635934049afb9ca0481fb6a58b16100f990a0d62c8665b9cfb5c9ada8a99f
+Status: Downloaded newer image for devopsdockeruh/pull_exercise:latest
+WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+[1G[0JGive me the password: [23Gadmin
+
+admin is not the correct password, please try again
+
+[1G[0JGive me the password: [23Gbasics
+
+You found the correct password. Secret message is:
+"This is the secret message"
+
+[1m[7m%[27m[1m[0m                                                                                                                                      
+ 
+]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops]1;..-moocs/devops]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops\
+[0m[27m[24m[J[01;32m➜  [36mdevops[00m [K[?1h=[?2004heexit[?1l>[?2004l
+
+]2;exit]1;exit
+Script done on Mon Aug 26 13:40:48 2024

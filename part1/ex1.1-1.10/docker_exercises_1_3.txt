@@ -1,0 +1,125 @@
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+
+
+Script command output:
+
+
+Script started on Mon Aug 26 11:28:00 2024
+[1m[7m%[27m[1m[0m                                                                                        
+ 
+]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops]1;..-moocs/devops]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops\
+[0m[27m[24m[J[01;32m➜  [36mdevops[00m [K[?1h=[?2004h[7mSecret message is: 'You can find the source code here: https://github.com/docke[7mr[7m-hy'[27m[K[A[5C[K[1B
+[K[A[10Cddocker kill 61ee6c930315 affectionate_dirac[36Drun -d devopsdockeruh/simple-web-service:ubuntu [?1l>[?2004l[1B
+]2;docker run -d devopsdockeruh/simple-web-service:ubuntu]1;dockerWARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+9a8001fc79d212c8585a8529d8fbf48ef54a900c0b9e2914e32d232e4e2670f9
+[1m[7m%[27m[1m[0m                                                                                        
+ 
+]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops]1;..-moocs/devops]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops\
+[0m[27m[24m[J[01;32m➜  [36mdevops[00m [K[?1h=[?2004hddocker exec x [11D           [11Dddocker ps -a[?1l>[?2004l
+
+]2;docker ps -a]1;dockerCONTAINER ID   IMAGE                                      COMMAND                 CREATED          STATUS                        PORTS     NAMES
+9a8001fc79d2   devopsdockeruh/simple-web-service:ubuntu   "/usr/src/app/server"   6 seconds ago    Up 6 seconds                            vigilant_wright
+61ee6c930315   devopsdockeruh/simple-web-service:ubuntu   "/usr/src/app/server"   32 seconds ago   Exited (137) 24 seconds ago             affectionate_dirac
+[1m[7m%[27m[1m[0m                                                                                        
+ 
+]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops]1;..-moocs/devops]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops\
+[0m[27m[24m[J[01;32m➜  [36mdevops[00m [K[?1h=[?2004hddocker exec [7m9a8001fc79d2[27m[12D[27m9[27ma[27m8[27m0[27m0[27m1[27mf[27mc[27m7[27m9[27md[27m2 tail -f ./text/ .log[?1l>[?2004l
+
+]2;docker exec 9a8001fc79d2 tail -f ./text.log]1;docker2024-08-26 14:28:37 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-08-26 14:28:39 +0000 UTC
+2024-08-26 14:28:41 +0000 UTC
+2024-08-26 14:28:43 +0000 UTC
+2024-08-26 14:28:45 +0000 UTC
+2024-08-26 14:28:47 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-08-26 14:28:49 +0000 UTC
+2024-08-26 14:28:51 +0000 UTC
+2024-08-26 14:28:53 +0000 UTC
+2024-08-26 14:28:55 +0000 UTC
+2024-08-26 14:28:57 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-08-26 14:28:59 +0000 UTC
+^Ccontext canceled
+[1m[7m%[27m[1m[0m                                                                                        
+ 
+]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops]1;..-moocs/devops]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops\
+[0m[27m[24m[J[01;31m➜  [36mdevops[00m [K[?1h=[?2004heex  ddocker rmi --force[1m [0m[0m 
+
+[0m1a799365aa63  -- latest          in ubuntu
+4e3362e907d5  -- ubuntu          in devopsdockeruh/simple-web-service
+[Jdevopsdockeruh/simple-web-service  [Jubuntu                           [J[3A[0m[27m[24m
+[10Cdocker rmi --force[K[1C1a799365aa63
+
+[7m1a799365aa63  -- latest          in ubuntu[0m[K[K
+4e3362e907d5  -- ubuntu          in devopsdockeruh/simple-web-service[K[K
+[Jdevopsdockeruh/simple-web-service  [Jubuntu                           [J[3A[0m[27m[24m
+[10Cdocker rmi --force 1a799365aa63[K
+
+[7m1a799365aa63  -- latest          in ubuntu[0m[K
+[7m1a799365aa63  -- latest          in ubuntu[0m[K
+[A[0m[27m[24m
+[10Cdocker rmi --force 1a799365aa63[K
+
+[J[A[41C[1m [0m[0m 
+
+[J[0m1a799365aa63  -- latest          in ubuntu
+4e3362e907d5  -- ubuntu          in devopsdockeruh/simple-web-service
+[Jdevopsdockeruh/simple-web-service  [Jubuntu                           [J[3A[0m[27m[24m
+[10Cdocker rmi --force 1a799365aa63[K[1C1a799365aa63
+
+[7m1a799365aa63  -- latest          in ubuntu[0m[K[K
+4e3362e907d5  -- ubuntu          in devopsdockeruh/simple-web-service[K[K
+[Jdevopsdockeruh/simple-web-service  [Jubuntu                           [J[3A[0m[27m[24m
+[10Cdocker rmi --force 1a799365aa63 1a799365aa63[K
+
+[7m1a799365aa63  -- latest          in ubuntu[0m[K
+[7m1a799365aa63  -- latest          in ubuntu[0m[K
+[A[0m[27m[24m
+[10Cdocker rmi --force 1a799365aa63 1a799365aa63[K[12D4e3362e907d5
+
+[0m1a799365aa63  -- latest          in ubuntu[K
+[1B[7m4e3362e907d5  -- ubuntu          in devopsdockeruh/simple-web-service[0m[K
+[A[A[0m[27m[24m
+[10Cdocker rmi --force 1a799365aa63 4e3362e907d5[K
+
+[J[A[54C[1m [0m[0m [?1l>[?2004l
+
+[J]2;docker rmi --force 1a799365aa63 4e3362e907d5]1;dockerUntagged: ubuntu:latest
+Untagged: ubuntu@sha256:8a37d68f4f73ebf3d4efafbcf66379bf3728902a8038616808f04e34a9ab63ee
+Deleted: sha256:1a799365aa63eed3c0ebb1c01aa5fd9d90320c46fe52938b03fb007d530d8b02
+Deleted: sha256:8da92be08e153a013335eb96593050a8069310271b6b84a3c1a172955a0098ea
+Error response from daemon: conflict: unable to delete 4e3362e907d5 (cannot be forced) - image is being used by running container 9a8001fc79d2
+[1m[7m%[27m[1m[0m                                                                                        
+ 
+]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops]1;..-moocs/devops]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops\
+[0m[27m[24m[J[01;31m➜  [36mdevops[00m [K[?1h=[?2004hddocker conta     kill[1m [0m[0m 
+
+[J[0mvigilant_wright  [J9a8001fc79d2  [J--  About a minute, devopsdockeruh/simple-web-service:ub[J[A[0m[27m[24m
+[10Cdocker kill[K[1Cvigilant_wright
+
+[J[7mvigilant_wright[0m  [J9a8001fc79d2  [J--  About a minute, devopsdockeruh/simple-web-service:ub[J[A[0m[27m[24m
+[10Cdocker kill vigilant_wright[K
+
+[7mvigilant_wright[0m  
+[7mvigilant_wright[0m  
+[A[0m[27m[24m
+[10Cdocker kill vigilant_wright[K
+
+[J[A[37C[1m [0m[0m [?1l>[?2004l
+
+[J]2;docker kill vigilant_wright]1;dockervigilant_wright
+[1m[7m%[27m[1m[0m                                                                                        
+ 
+]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops]1;..-moocs/devops]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops\
+[0m[27m[24m[J[01;32m➜  [36mdevops[00m [K[?1h=[?2004hddocker       eexti[?1l>[?2004l
+
+]2;exti]1;extizsh: command not found: exti
+[1m[7m%[27m[1m[0m                                                                                        
+ 
+]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops]1;..-moocs/devops]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops\
+[0m[27m[24m[J[01;31m➜  [36mdevops[00m [K[?1h=[?2004heexit[?1l>[?2004l
+
+]2;exit]1;exit
+Script done on Mon Aug 26 11:29:20 2024
+

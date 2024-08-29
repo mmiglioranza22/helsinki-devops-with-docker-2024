@@ -1,0 +1,32 @@
+Script started on Mon Aug 26 13:37:24 2024
+[1m[7m%[27m[1m[0m                                                                                                                                      ]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops]1;..-moocs/devops]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops\[0m[27m[24m[J[01;32m➜  [36mdevops[00m [K[?1h=[?2004hddocker rm beautiful_lehmann nervous_swirles[36Dstop awesome_rosalind               [15D[21Dexec -it ae55a5a4f740 sh[19D[4P[15C    bashtail -f ./text.log[36Dps -a                               [31Drun -d fd312adc88e0[15Df[3P[11C   [12D-d fd312adc88e0[?1l>[?2004l
+]2;docker run -d fd312adc88e0]1;dockerWARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+b2d92a5cbdbf94d69f7896e3ab628cbf140b6915bf1b887b04067a7e7ded86b6
+[1m[7m%[27m[1m[0m                                                                                                                                      ]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops]1;..-moocs/devops]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops\[0m[27m[24m[J[01;32m➜  [36mdevops[00m [K[?1h=[?2004hddocker exec -it ae55a5a4f740 sh[19D[4P[15C    bashtail -f ./text.log[43D                                           [43Dddocker ps -a[?1l>[?2004l
+]2;docker ps -a]1;dockerCONTAINER ID   IMAGE          COMMAND                 CREATED          STATUS                          PORTS     NAMES
+b2d92a5cbdbf   fd312adc88e0   "/usr/src/app/server"   16 seconds ago   Up 15 seconds                             stoic_villani
+ae55a5a4f740   fd312adc88e0   "/usr/src/app/server"   3 minutes ago    Exited (2) About a minute ago             awesome_rosalind
+[1m[7m%[27m[1m[0m                                                                                                                                      ]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops]1;..-moocs/devops]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops\[0m[27m[24m[J[01;32m➜  [36mdevops[00m [K[?1h=[?2004hddocker images[?1l>[?2004l
+]2;docker images]1;dockerREPOSITORY                          TAG       IMAGE ID       CREATED       SIZE
+ubuntu                              latest    1a799365aa63   3 weeks ago   101MB
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   3 years ago   83MB
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   3 years ago   15.7MB
+[1m[7m%[27m[1m[0m                                                                                                                                      ]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops]1;..-moocs/devops]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops\[0m[27m[24m[J[01;32m➜  [36mdevops[00m [K[?1h=[?2004hddicjer      oodo  ddicke   d dokcer e     cker exec[1m [0m[0m -it ae55a5a4f740 sh[19D[4P[15C    bashtail -f ./text.log[12D[12P[19C            [31D[7mb[7m2[7md[7m9[7m2[7ma[7m5[7mc[7mb[7md[7mb[7mf[27m tail -f ./text.log[19D[12D[27mb[27m2[27md[27m9[27m2[27ma[27m5[27mc[27mb[27md[27mb[27mf] tail -f ./text.log[19D[P[19C [20D[?1l>[?2004l
+]2;docker exec b2d92a5cbdbf tail -f ./text.log]1;docker2024-08-26 16:38:19 +0000 UTC
+2024-08-26 16:38:21 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-08-26 16:38:23 +0000 UTC
+2024-08-26 16:38:25 +0000 UTC
+2024-08-26 16:38:27 +0000 UTC
+2024-08-26 16:38:29 +0000 UTC
+2024-08-26 16:38:31 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-08-26 16:38:33 +0000 UTC
+2024-08-26 16:38:35 +0000 UTC
+2024-08-26 16:38:37 +0000 UTC
+exit
+2024-08-26 16:38:39 +0000 UTC
+^Ccontext canceled
+[1m[7m%[27m[1m[0m                                                                                                                                      ]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops]1;..-moocs/devops]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops\[0m[27m[24m[J[01;31m➜  [36mdevops[00m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on Mon Aug 26 13:38:42 2024

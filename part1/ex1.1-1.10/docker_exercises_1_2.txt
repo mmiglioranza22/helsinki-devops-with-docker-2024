@@ -1,0 +1,95 @@
+Script started on Sun Aug 25 14:22:44 2024
+[1m[7m%[27m[1m[0m                                                                                                                                        ]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops/docker/part1]1;../docker/part1]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops/docker/part1\[0m[27m[24m[J[01;32m➜  [36mpart1[00m [K[?1h=[?2004hscript docker_exercises_1_2.txt[31Dexit                           [27Ddocker ps -a[?1l>[?2004l
+]2;docker ps -a]1;dockerCONTAINER ID   IMAGE      COMMAND                  CREATED              STATUS                       PORTS     NAMES
+6c92e46165ea   nginx      "/docker-entrypoint.…"   About a minute ago   Exited (0) 50 seconds ago              romantic_booth
+f85abc76964f   nginx      "/docker-entrypoint.…"   About a minute ago   Exited (0) 50 seconds ago              wizardly_ramanujan
+f4246621a56e   nginx      "/docker-entrypoint.…"   About a minute ago   Up About a minute            80/tcp    youthful_rhodes
+f8b736761c8b   nginx      "/docker-entrypoint.…"   2 minutes ago        Exited (127) 2 minutes ago             reverent_blackburn
+d749758067cd   postgres   "docker-entrypoint.s…"   23 hours ago         Exited (0) 23 hours ago                optimistic_borg
+[1m[7m%[27m[1m[0m                                                                                                                                        ]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops/docker/part1]1;../docker/part1]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops/docker/part1\[0m[27m[24m[J[01;32m➜  [36mpart1[00m [K[?1h=[?2004hddocker container  pru   prune[?1l>[?2004l
+]2;docker container prune]1;dockerWARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] y
+Deleted Containers:
+6c92e46165ea856a05de6606f2be976c716a87d1aa2b9400a8d8dee062d4d651
+f85abc76964f55173c5f3547f4d5e49c70b8176d248e1b7f549596764c7f13c8
+f8b736761c8b4e44a863e01aec56f9620ee9b92dda87c1219b3d43b56498a941
+d749758067cd80ea227173c752ab140efc79d85deb3bfb9efe300ffea4398dc4
+
+Total reclaimed space: 2.505kB
+[1m[7m%[27m[1m[0m                                                                                                                                        ]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops/docker/part1]1;../docker/part1]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops/docker/part1\[0m[27m[24m[J[01;32m➜  [36mpart1[00m [K[?1h=[?2004hdocker container prune[15Dps -a          [10D[?1l>[?2004l
+]2;docker ps -a]1;dockerCONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS         PORTS     NAMES
+f4246621a56e   nginx     "/docker-entrypoint.…"   2 minutes ago   Up 2 minutes   80/tcp    youthful_rhodes
+[1m[7m%[27m[1m[0m                                                                                                                                        ]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops/docker/part1]1;../docker/part1]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops/docker/part1\[0m[27m[24m[J[01;32m➜  [36mpart1[00m [K[?1h=[?2004hddco d docker st
+[0mstart  -- Start one or more stopped containers
+stats  -- Display a live stream of container(s) resource usage statistics
+[Jstop   -- Stop one or more running containers[J[3A[0m[27m[24m[9Cdocker st[Kart
+[7mstart  -- Start one or more stopped containers[0m[K[K
+stats  -- Display a live stream of container(s) resource usage statistics[K[K
+[Jstop   -- Stop one or more running containers[K[J[3A[0m[27m[24m[9Cdocker start[K
+[7mstart  -- Start one or more stopped containers[0m[K[7mstart  -- Start one or more stopped containers[0m[K[A[0m[27m[24m[9Cdocker start[K
+[J[A[21C[1m [0m[0m [1m [0m     [0m stop f4[?1l>[?2004l
+[J]2;docker stop f4]1;dockerf4
+[1m[7m%[27m[1m[0m                                                                                                                                        ]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops/docker/part1]1;../docker/part1]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops/docker/part1\[0m[27m[24m[J[01;32m➜  [36mpart1[00m [K[?1h=[?2004hddocker container prune[?1l>[?2004l
+]2;docker container prune]1;dockerWARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] y
+Deleted Containers:
+f4246621a56e7c3a01f99205f50e85aa3446f70d4af96b435b6bc75f706f7c4e
+
+Total reclaimed space: 1.093kB
+[1m[7m%[27m[1m[0m                                                                                                                                        ]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops/docker/part1]1;../docker/part1]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops/docker/part1\[0m[27m[24m[J[01;32m➜  [36mpart1[00m [K[?1h=[?2004hddocjer im [8D        [8Dddocker image prune[?1l>[?2004l
+]2;docker image prune]1;dockerWARNING! This will remove all dangling images.
+Are you sure you want to continue? [y/N] y
+Total reclaimed space: 0B
+[1m[7m%[27m[1m[0m                                                                                                                                        ]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops/docker/part1]1;../docker/part1]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops/docker/part1\[0m[27m[24m[J[01;32m➜  [36mpart1[00m [K[?1h=[?2004hd ddocker images[?1l>[?2004l
+]2;docker images]1;dockerREPOSITORY   TAG       IMAGE ID       CREATED       SIZE
+nginx        latest    a9dfdba8b719   10 days ago   193MB
+postgres     latest    35042a754d27   2 weeks ago   453MB
+[1m[7m%[27m[1m[0m                                                                                                                                        ]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops/docker/part1]1;../docker/part1]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops/docker/part1\[0m[27m[24m[J[01;32m➜  [36mpart1[00m [K[?1h=[?2004hddocker rmi 
+[0m35042a754d27  -- latest          in postgres
+a9dfdba8b719  -- latest          in nginx
+[Jnginx     [Jpostgres[J[3A[0m[27m[24m[9Cdocker rmi[K[1C35042a754d27
+[7m35042a754d27  -- latest          in postgres[0m[K[K
+a9dfdba8b719  -- latest          in nginx[K[K
+[Jnginx     [Jpostgres[J[3A[0m[27m[24m[9Cdocker rmi 35042a754d27[K
+[7m35042a754d27  -- latest          in postgres[0m[K[7m35042a754d27  -- latest          in postgres[0m[K[A[0m[27m[24m[9Cdocker rmi 35042a754d27[K
+[J[A[32C[1m [0m[0m 
+[J[0m35042a754d27  -- latest          in postgres
+a9dfdba8b719  -- latest          in nginx
+[Jnginx     [Jpostgres[J[3A[0m[27m[24m[9Cdocker rmi 35042a754d27[K[1C35042a754d27
+[7m35042a754d27  -- latest          in postgres[0m[K[K
+a9dfdba8b719  -- latest          in nginx[K[K
+[Jnginx     [Jpostgres[J[3A[0m[27m[24m[9Cdocker rmi 35042a754d27 35042a754d27[K
+[7m35042a754d27  -- latest          in postgres[0m[K[7m35042a754d27  -- latest          in postgres[0m[K[A[0m[27m[24m[9Cdocker rmi 35042a754d27 35042a754d27[K[12Da9dfdba8b719
+[0m35042a754d27  -- latest          in postgres[K[1B[7ma9dfdba8b719  -- latest          in nginx[0m[K[A[A[0m[27m[24m[9Cdocker rmi 35042a754d27 a9dfdba8b719[K
+[J[A[45C[1m [0m[0m [?1l>[?2004l
+[J]2;docker rmi 35042a754d27 a9dfdba8b719]1;dockerUntagged: postgres:latest
+Untagged: postgres@sha256:c62fdb7fd6f519ef425c54760894c74e8d0cb04fbf4f7d3d79aafd86bae24edd
+Deleted: sha256:35042a754d278fa843c10666497bef22bec0a6e4b2c59e40884aa78d2f4d47bd
+Deleted: sha256:31bd1a1212ae5d2027a867bd31d1205a10a1b16ec81a61c6f5d34c3d4756cf40
+Deleted: sha256:96b1bab3877a5c3a04b338dd0b53b50abf5670381555f25e2c0b5675a3abf1c0
+Deleted: sha256:e0c7d53aaf3ea7f0bd9ed19e0fa4d78d1f43330db3f8e7c68a317fc855682bbc
+Deleted: sha256:a8506123133a5b53765676058745717e49b61bf74c886e1e4727b6e100752866
+Deleted: sha256:e89de3dcbb36152bc31b6c2be95378cc19f5a8c92dd23a2b4cd80bd950198601
+Deleted: sha256:4d5ee2d33cefe7d3040e0db5ea54101be8ab9ce994882a7ae0d7db783f670bc9
+Deleted: sha256:efa93695bc3fee95bda5271888c236a225454231c0c312c9beabfeca22179a4a
+Deleted: sha256:574dd78292e0109fc30081a399190d758c400040ef2d8f42e78a155ffcd70e3a
+Deleted: sha256:f75d302ef1fcb4bf965be083281748f525bd04484eee2d8a43e182ba8f62ca77
+Deleted: sha256:82150e93ddc3ab35f48ce36b3327f62d8b496890cc213ff52c6adb43ead78e91
+Deleted: sha256:801e251af979f1fec6f7bcb2374f7091ebb7edbeb464596bd0e020c6b7288b15
+Deleted: sha256:013458490e6599c67bf18e82c07f2e9a3810c681bb186723ed8135a323add2aa
+Deleted: sha256:650634ee341f241c0e4ba657f83292d531cca25821e7230df7906d78374aa2a5
+Untagged: nginx:latest
+Untagged: nginx@sha256:447a8665cc1dab95b1ca778e162215839ccbb9189104c79d7ec3a81e14577add
+Deleted: sha256:a9dfdba8b719078c5705fdecd6f8315765cc79e473111aa9451551ddc340b2bc
+Deleted: sha256:5a1b96c1f79f0f170d4361978189ccabf1fc3504ef7db3fab432ac97478cb729
+Deleted: sha256:2f9fe589fadcf9df1d5ec5fa50107d11cf8849b1f4e458c50e8cc7643c55cc23
+Deleted: sha256:257427fa47e5637dcac14fcc4d57c0da8db89268fa4b6209347bd22ac447482d
+Deleted: sha256:b77f915f8fe4054bd396ea37658011c8dd307f8f46dfc45eb491756cb2576eea
+Deleted: sha256:f9a9b2ccd75e237db6c3211f1401fd98417e52d62a4e6369b5271b2e74007dbb
+Deleted: sha256:f63ea564dd2b2327560b9a3ff2a9da88b9dc3e1570f9dfafdbef4038d0331c0e
+Deleted: sha256:07d2ee3f57121ff2c3c8279d6f8d3236f2c835fd616f5c9b4e3346c30b90a36d
+[1m[7m%[27m[1m[0m                                                                                                                                        ]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops/docker/part1]1;../docker/part1]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops/docker/part1\[0m[27m[24m[J[01;32m➜  [36mpart1[00m [K[?1h=[?2004hdocker rmi 35042a754d27 a9dfdba8b719[29Dimages                       [23D[?1l>[?2004l
+]2;docker images]1;dockerREPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+[1m[7m%[27m[1m[0m                                                                                                                                        ]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops/docker/part1]1;../docker/part1]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops/docker/part1\[0m[27m[24m[J[01;32m➜  [36mpart1[00m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on Sun Aug 25 14:23:55 2024
