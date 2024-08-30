@@ -1,0 +1,49 @@
+Script started on Fri Aug 30 18:03:42 2024
+[1m[7m%[27m[1m[0m                                                   ]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops/docker/part2/scaling-exercise]1;..ling-exercise]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops/docker/part2/scaling-exercise\[0m[27m[24m[J[01;32m➜  [36mscaling-exercise[00m [K[?1h=[?2004h[0m[27m[24m[J[01;32m➜  [36mscaling-exercise[00m [01;34mgit:([31mmain[34m) [33m✗[00m [Kddocker compose up  [K
+[K[A[A[48Cdown --volumes[1B[K[A[11C[A[37Cup --scale compute=3[1B[K[A[17C[A[31Cdown                [1B[K[A[1C[A[47Cup -d --scale compute=3[1B[K[A[20C[1B[K[A[20C[?1l>[?2004l[1B
+]2;docker compose up -d --scale compute=3]1;docker[1A[1B[0G[?25l[+] Running 4/0
+ [32m✔[0m Container load-balancer                                                                                                                                [32mCreated[0m[34m0.0s [0m
+ [32m✔[0m Container scaling-exercise-compute-1                                                                                                                   [32mCreated[0m[34m0.0s [0m
+ [33m⠋[0m Container scaling-exercise-compute-3                                                                                                                   Created[34m0.1s [0m
+ [33m⠋[0m Container scaling-exercise-compute-2                                                                                                                   Starting[34m0.1s [0m
+ [32m✔[0m Container calculator                                                                                                                                   [32mCreated[0m[34m0.0s [0m
+ [33m[1m![0m compute The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested [33m[1m[0m[34m0.0s [0m
+[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 4/6
+ [32m✔[0m Container load-balancer                                                                                                                                [32mCreated[0m[34m0.0s [0m
+ [32m✔[0m Container scaling-exercise-compute-1                                                                                                                   [32mCreated[0m[34m0.0s [0m
+ [33m⠙[0m Container scaling-exercise-compute-3                                                                                                                   Created[34m0.2s [0m
+ [33m⠙[0m Container scaling-exercise-compute-2                                                                                                                   Starting[34m0.2s [0m
+ [32m✔[0m Container calculator                                                                                                                                   [32mCreated[0m[34m0.0s [0m
+ [33m[1m![0m compute The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested [33m[1m[0m[34m0.0s [0m
+[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 5/6
+ [32m✔[0m Container load-balancer                                                                                                                                [32mCreated[0m[34m0.0s [0m
+ [32m✔[0m Container scaling-exercise-compute-1                                                                                                                   [32mCreated[0m[34m0.0s [0m
+ [33m⠹[0m Container scaling-exercise-compute-3                                                                                                                   Starting[34m0.3s [0m
+ [32m✔[0m Container scaling-exercise-compute-2                                                                                                                   [32mStarted[0m[34m0.2s [0m
+ [32m✔[0m Container calculator                                                                                                                                   [32mCreated[0m[34m0.0s [0m
+ [33m[1m![0m compute The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested [33m[1m[0m[34m0.0s [0m
+[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[34m[+] Running 6/6[0m
+ [32m✔[0m Container load-balancer                                                                                                                                [32mStarted[0m[34m0.0s [0m
+ [32m✔[0m Container scaling-exercise-compute-1                                                                                                                   [32mCreated[0m[34m0.0s [0m
+ [32m✔[0m Container scaling-exercise-compute-3                                                                                                                   [32mStarted[0m[34m0.4s [0m
+ [32m✔[0m Container scaling-exercise-compute-2                                                                                                                   [32mStarted[0m[34m0.2s [0m
+ [32m✔[0m Container calculator                                                                                                                                   [32mStarted[0m[34m0.0s [0m
+ [33m[1m![0m compute The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested [33m[1m[0m[34m0.0s [0m
+[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[34m[+] Running 6/6[0m
+ [32m✔[0m Container load-balancer                                                                                                                                [32mStarted[0m[34m0.0s [0m
+ [32m✔[0m Container scaling-exercise-compute-1                                                                                                                   [32mCreated[0m[34m0.0s [0m
+ [32m✔[0m Container scaling-exercise-compute-3                                                                                                                   [32mStarted[0m[34m0.4s [0m
+ [32m✔[0m Container scaling-exercise-compute-2                                                                                                                   [32mStarted[0m[34m0.2s [0m
+ [32m✔[0m Container calculator                                                                                                                                   [32mStarted[0m[34m0.0s [0m
+ [33m[1m![0m compute The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested [33m[1m[0m[34m0.0s [0m
+[?25h[1A[1A[1A[1A[1A[1A[1A[0G[?25l[34m[+] Running 6/6[0m
+ [32m✔[0m Container load-balancer                                                                                                                                [32mStarted[0m[34m0.0s [0m
+ [32m✔[0m Container scaling-exercise-compute-1                                                                                                                   [32mStarted[0m[34m0.0s [0m
+ [32m✔[0m Container scaling-exercise-compute-3                                                                                                                   [32mStarted[0m[34m0.4s [0m
+ [32m✔[0m Container scaling-exercise-compute-2                                                                                                                   [32mStarted[0m[34m0.2s [0m
+ [32m✔[0m Container calculator                                                                                                                                   [32mStarted[0m[34m0.0s [0m
+ [33m[1m![0m compute The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested [33m[1m[0m[34m0.0s [0m
+[?25h[1m[7m%[27m[1m[0m                                                   ]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops/docker/part2/scaling-exercise]1;..ling-exercise]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops/docker/part2/scaling-exercise\[0m[27m[24m[J[01;32m➜  [36mscaling-exercise[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hdocker compose up -d --scale compute=3[K
+[K[A[20C[A[13Cscript docker_exercise.2.5.txt[K[1B[K[A[12C[A[21Ccurl -H "Host: comput[2Clocaltest.me" localhost[?1l>[?2004l[1B]2;curl -H "Host: compute.localtest.me" localhost]1;curlHello World![1m[7m%[27m[1m[0m                                                   ]2;mmiglioranza@Manuels-MBP:~/Documents/github/helsinky-moocs/devops/docker/part2/scaling-exercise]1;..ling-exercise]7;file://Manuels-MBP.fibertel.com.ar/Users/mmiglioranza/Documents/github/helsinky-moocs/devops/docker/part2/scaling-exercise\[0m[27m[24m[J[01;32m➜  [36mscaling-exercise[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on Fri Aug 30 18:04:01 2024
