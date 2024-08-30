@@ -1,0 +1,29 @@
+# https://github.com/ninanung/nginx-proxy
+
+version: "2"
+
+services:
+  nginx-proxy:
+    image: jwilder/nginx-proxy
+    ports:
+      - "80:80"
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+
+  whoami:
+    image: jwilder/whoami
+    environment:
+      - VIRTUAL_HOST=whoami.local
+
+  hello:
+    image: nginx:1.19-alpine
+    volumes:
+      - ./hello.html:/usr/share/nginx/html/index.html:ro
+    environment:
+      - VIRTUAL_HOST=hello.local
+  world:
+    image: nginx:1.19-alpine
+    volumes:
+      - ./world.html:/usr/share/nginx/html/index.html:ro
+    environment:
+      - VIRTUAL_HOST=world.local
