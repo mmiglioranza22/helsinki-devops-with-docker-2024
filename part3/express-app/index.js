@@ -3,7 +3,11 @@ const app = express();
 
 app.get("/", (req, res) => {
   res.send(
-    "<h1>Hello World! version 3 pulled directly by Watchtower, third attempt!</h1>"
+    `<div>
+      <h1>Hello World!</h1>
+      <h2>repo image pulled directly by Watchtower works!. ex. 3.1</h2>
+      <h2>Testing auto deploy from docker image in repo to Render... ex. 3.2</h2>
+      </div>`
   );
 });
 

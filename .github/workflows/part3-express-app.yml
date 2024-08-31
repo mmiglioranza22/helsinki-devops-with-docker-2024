@@ -29,3 +29,17 @@ jobs:
           file: part3/express-app/Dockerfile
           push: true
           tags: mmiglioranza22/express-app:latest
+
+  deploy-to-render:
+    name: Publish image to Docker Hub
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Render Deployment
+        uses: sws2apps/render-deployment@v1.7.0
+        # condition to test it works, commit message #skip does not trigger deploy
+        if: ${{ github.event_name == 'push' && !contains(toJson(github.event.commits.*.message), '#skip')}}
+        with:
+          serviceId: ${{ secrets.RENDER_SERVICE_ID }}
+          apiKey: ${{ secrets.RENDER_API_KEY }}
+          multipleDeployment: false
