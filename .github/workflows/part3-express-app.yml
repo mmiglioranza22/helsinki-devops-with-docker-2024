@@ -25,5 +25,7 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v6
         with:
+          context: part3/express-app
+          file: part3/express-app/Dockerfile
           push: true
           tags: mmiglioranza22/express-app:latest
