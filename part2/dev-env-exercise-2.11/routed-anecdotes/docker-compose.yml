@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  node-dev-env:
+    build: . # Build with the Dockerfile here
+    command: ["npm", "run", "dev", "--", "--host"] # Vite dev env uses --host to expose dev port
+    ports:
+      - 3000:5173 # The app uses port 5173 by default, publish it as 3000
+    volumes:
+      - ./:/usr/src/app # Let us modify the contents of the container locally, whatever is changed in the root dir will be reflected in the containerized app
+      - node_modules:/usr/src/app/node_modules # A bit of node magic, this ensures the dependencies built for the image are not available locally.
+    container_name: node-dev-env # Container name for convenience
+
+volumes: # This is required for the node_modules named volume
+  node_modules:
+# check open ports: docker run -it --rm --network host networkstatic/nmap localhost
