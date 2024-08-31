@@ -1,0 +1,57 @@
+version: "3.8"
+
+services:
+  frontend-app:
+    image: example-frontend
+    build:
+      context: ./example-frontend/
+      dockerfile: Dockerfile
+      # 8080 here is the nginx port, not the exposed port in Dockerfile (happens to be the same)
+    environment:
+      - REACT_APP_BACKEND_URL=http://localhost:8080/api/
+
+  backend-server:
+    image: example-backend
+    build:
+      context: ./example-backend/
+      dockerfile: Dockerfile
+    environment:
+      # nginx port is opened only
+      - REQUEST_ORIGIN=http://localhost:8080
+      - REDIS_HOST=redis_service
+      - POSTGRES_HOST=postgres_service
+    depends_on:
+      - redis_service
+      - postgres_service
+
+  redis_service:
+    image: redis
+    restart: unless-stopped
+    volumes:
+      - ./example-backend/redis.conf:/usr/local/etc/redis/redis.conf
+    command: ["redis-server", "/usr/local/etc/redis/redis.conf"]
+
+  postgres_service:
+    image: postgres:13.2-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_HOST: 5432
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DATABASE: postgres
+      # required for out of container persistance
+    volumes:
+      - database:/var/lib/postgresql/data
+
+  nginx:
+    image: nginx:1.20.1
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - 8080:80
+    depends_on:
+      - frontend-app # wait for the frontend container to be started, it does not check if it is ready to receive requests !! https://docs.docker.com/compose/startup-order/
+
+# this is for the purpose of avoiding anonymous volume managed by Docker
+volumes:
+  database:
