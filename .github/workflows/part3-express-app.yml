@@ -7,7 +7,7 @@ on:
     # Added specifically to avoid creating other repo and running actions from this directory only for express-app
     paths:
       - "part3/express-app/**"
-      - ".github/workflows/part3-express-app,yml"
+      - ".github/workflows/part3-express-app.yml"
 
 jobs:
   publish-docker-hub:
