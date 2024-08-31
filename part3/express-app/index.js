@@ -6,7 +6,7 @@ app.get("/", (req, res) => {
     `<div>
       <h1>Hello World!</h1>
       <h2>repo image pulled directly by Watchtower works!. ex. 3.1</h2>
-      <h2>Testing auto deploy from docker image in repo to Render... ex. 3.2</h2>
+      <h2>Testing auto deploy from docker image in repo to Render, second attempt... ex. 3.2</h2>
       </div>`
   );
 });
