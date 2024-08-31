@@ -31,7 +31,7 @@ jobs:
           tags: mmiglioranza22/express-app:latest
 
   deploy-to-render:
-    name: Publish image to Docker Hub
+    name: Deploy image to Render
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
