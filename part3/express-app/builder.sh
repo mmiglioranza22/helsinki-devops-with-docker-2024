@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 
 VAR_1=$1
 VAR_2=$2
