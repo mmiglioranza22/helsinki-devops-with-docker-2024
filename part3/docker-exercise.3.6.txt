@@ -1,0 +1,7 @@
+Smaller docker images are in slim.Dockerfile files in each example-front and example-back directories
+
+REPOSITORY         TAG       IMAGE ID       CREATED          SIZE
+slim-back          latest    1ab48e6bbfaf   51 seconds ago   496MB
+slim-front         latest    2179d6cd3867   4 minutes ago    318MB
+example-frontend   latest    2c592162f454   28 minutes ago   1.1GB
+example-backend    latest    e119199ef5a6   28 minutes ago   1.1GB
