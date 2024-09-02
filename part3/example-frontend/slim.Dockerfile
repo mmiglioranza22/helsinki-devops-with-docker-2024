@@ -31,3 +31,6 @@ COPY --from=build-stage /usr/src/app/build /usr/share/nginx/html
 # EXPOSE 3000
 
 CMD ["nginx", "-g", "daemon off;"]
+
+# docker run -p 3000:8080 slim-front
+# missing nginx.conf to connect with slim-back

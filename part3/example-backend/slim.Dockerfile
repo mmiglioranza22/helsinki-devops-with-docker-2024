@@ -28,3 +28,5 @@ COPY --from=build-stage /usr/src/app/server .
 EXPOSE 8080
 
 CMD ["./server"]
+
+# docker run -p 8080:8080 slim-back
