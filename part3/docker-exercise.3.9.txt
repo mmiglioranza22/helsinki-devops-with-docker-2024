@@ -1,0 +1,3 @@
+REPOSITORY   TAG       IMAGE ID       CREATED          SIZE
+slim-back    latest    ab5f0290e1d9   43 seconds ago   19.2MB
+slim-front   latest    dc27dadc8ad4   2 hours ago      48.2MB

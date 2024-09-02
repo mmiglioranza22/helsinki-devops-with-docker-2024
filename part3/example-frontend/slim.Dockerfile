@@ -16,7 +16,7 @@ RUN npm install --save-dev @babel/core
 RUN npm run build
 
 # This is a new stage, everything before this is gone, except for the files that we want to COPY
-# use unpriviledge nginx image
+# use unpriviledge nginx image https://stackoverflow.com/questions/64386645/error-user-directive-makes-sense-only-if-the-master-process-runs-with-super-u
 FROM nginxinc/nginx-unprivileged:1.27-alpine3.20
 
 COPY --from=build-stage /usr/src/app/build /usr/share/nginx/html
